@@ -3,9 +3,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
     background: linear-gradient(315deg, rgba(31, 83, 136, 0.822) 3%, rgb(83, 139, 212) 38%, rgb(86, 121, 196) 68%, rgb(155, 169, 218) 98%);
-    animation: gradient 15s ease infinite;
+    animation: gradient 20s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+    height: auto;
 }
 
 @keyframes gradient {
@@ -28,14 +29,11 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2.5rem;
 
+
 }
 
 
-.box-titulo1 {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(56, 83, 221, 0.623);
-}
+
 
 
 .box-conteudo1 {
@@ -64,20 +62,15 @@ body {
 }
 
 
-
-
-
-
-
 .img1 {
     border-radius: 2rem;
     margin: 1px;
     display: grid;
     height: 15rem;
-    left: 15rem;
+    left:  15rem;
     position: absolute;
     width: 15rem;
-    top: 150px;
+    top: 280px;
     box-shadow: 5px 5px 2em rgb(53, 53, 53);
 
 }
@@ -105,10 +98,10 @@ body {
     margin: 1px;
     display: grid;
     height: 15rem;
-    left: 45rem;
+    left: 75rem;
     position: absolute;
     width: 15rem;
-    top: 150px;
+    top: 280px;
     box-shadow: 5px 5px 2em rgb(32, 30, 30);
 
 }
@@ -123,10 +116,10 @@ body {
     margin: 1px;
     display: grid;
     height: 15rem;
-    left: 75rem;
+    left: 55rem;
     position: absolute;
     width: 15rem;
-    top: 150px;
+    top: 450px;
     box-shadow: 5px 5px 2em rgb(32, 30, 30);
 
 }
@@ -142,10 +135,10 @@ body {
     margin: 1px;
     display: grid;
     height: 15rem;
-    left: 30rem;
+    left: 45rem;
     position: absolute;
     width: 15rem;
-    top: 450px;
+    top: 280px;
     box-shadow: 5px 5px 2em rgb(32, 30, 30);
 
 }
@@ -177,45 +170,29 @@ body {
 
 
 .rodape-alfa {
-    position: absolute;
-    top: 95%;
-    margin-left: 45%;
-
-}
-
-.conteudo-vanessa,
-.conteudo-hostilio,
-.conteudo-alef,
-.conteudo-thiago,
-.conteudo-icaro {
-    background-color: aqua;
-    border-radius: 1rem;
-    padding: 2rem;
-}
-
-
-
-
-
-
-
-/* .wave {
-    background: rgba(56, 83, 221, 0.623);
-    border-radius: 1000% 1000% 0 0;
     position: relative;
-    width: 200%;
+    margin-left: 45%;
+    top: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: -5%;
+    justify-items: center;
+
+}
+
+
+.wave {
+    background: rgba(56, 83, 221, 0.623);
+    border-radius: 100% 100% 0 0;
+    position: relative;
+    width: 100%;
     height: 8em;
-    animation: wave 20s -3s linear infinite;
     transform: translate3d(0, 0, 0);
     opacity: 0.8;
     bottom: 0;
     left: 0;
     z-index: -1;
-    top: 400px;
     
-
-
-} */
+}
 
 .wave:nth-of-type(2) {
     bottom: -1.25em;
@@ -261,6 +238,8 @@ body {
     /* background-color: black; */
     /* column-gap: 20rem; */
     justify-content: space-around;
+    height: 60rem;
+
     
     
 }
@@ -286,7 +265,7 @@ body {
 .paragrafo{
     display: flex;
     
-    height: 30rem;
+    height: 50rem;
     border-radius: 1rem;
     flex-direction: column;
     align-items: center;
@@ -302,220 +281,46 @@ body {
 
 
 .framePDF{
-    width: 40rem;
-    height: 40rem;
+    width: 70rem;
+    height: 50rem;
     border-radius: 1rem;
 
 }
 
-
-/* ------------------------------------------------------------ SESSÃO DE RESPONSIVIDADE -------------------------------------------------------------------------*/
-
-/* MEDIA QUERY MENOR QUE 500PX */
-
-@media (max-width: 500px){
+.wave-footer {
+    background: rgba(56, 83, 221, 0.623);
+    border-radius: 100% 100% 0 0;
+    position: relative;
+    width: 100%;
+    height: 9.5em;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    top: 40rem;
     
-    .img1 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 25%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);           
-    }
+}
 
-    .img2 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 55%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img3 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 85%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img4 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 115%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img5 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 145%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-
-
-    .rodape-alfa {
-        display: flex;
-        top: 163%;
-        left: -14em;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1rem;
-        color: rgb(252, 249, 249);
-        background-color: rgba(56, 83, 221, 0.623);
-        height: 60px;
-        width: 31em;
-        position: relative;
-        top: 85rem;
-        justify-content: center;
-        padding-top: 25px;
-
-
+.box-titulo1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(56, 83, 221, 0.623);
+    /* grid-template-columns: 1fr 3fr */
+    flex-direction: row;
+    align-items: center;
     
-    }
 
-
-    .titulo1 {
-        color: rgb(252, 249, 249);
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2rem;
-        margin: 1rem;
-    
-    }
-    
-    .box-titulo1 {
-        display: flex;
-        justify-content: center;
-        background-color: rgba(56, 83, 221, 0.623);
-
-    }
 }
 
 
-
-/* MEDIA QUERY MENOR QUE 400PX */
-
-@media (max-width: 400px){
+.botao-voltar {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+    min-width: 10px;
+    min-width: 50px;
+    color: aliceblue;
     
-    .img1 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 25%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);           
-    }
-
-    .img2 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 55%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img3 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 85%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img4 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 115%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-    .img5 {
-            
-        border-radius: 2rem;
-        margin: 1px;
-        display: block;
-        left: 30%;
-        width: 200px;
-        height: 200px;
-        top: 145%;
-        box-shadow: 5px 5px 2em rgb(32, 30, 30);         
-    }
-
-
-
-    .rodape-alfa {
-        display: flex;
-        top: 163%;
-        left: -14em;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 0.9rem;
-        color: rgb(252, 249, 249);
-        background-color: rgba(56, 83, 221, 0.623);
-        height: 60px;
-        width: 31em;
-        position: relative;
-        top: 85rem;
-        justify-content: center;
-        padding-top: auto;
-
-
-    
-    }
-
-
-    .titulo1 {
-        color: rgb(252, 249, 249);
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2rem;
-        margin: 1rem;
-    
-    }
-    
-    .box-titulo1 {
-        display: flex;
-        justify-content: center;
-        background-color: rgba(56, 83, 221, 0.623);
-        width: 26.1rem;
-        align-items: center;
-        text-align: center;
-
-    }
 }
+
